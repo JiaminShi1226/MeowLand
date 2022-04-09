@@ -17,7 +17,7 @@
 	delCookie("whoami");
 	for(var i=0;i<catalog.length;i++)
 	if(getCookie(catalog[i].code)!=null) delCookie(catalog[i].code);
-	location.href="login.html";
+	location.href="index.html";
 	}
 	</script>
 </head>
@@ -37,7 +37,7 @@
 				if(getCookie("valid") =="true")
 					document.writeln(`<a href="logoff.html"><span class="button">Logoff</span></a>`);
 				else
-					document.writeln(`<a href="login.html"><span class="button">Login</span></a>`);
+					document.writeln(`<a href="index.html"><span class="button">Login</span></a>`);
 				</script></li>
 				<li><a href="home.html">Home</a></li>
 				<li><a href="products.html">Products</a></li>
