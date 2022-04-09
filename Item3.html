@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Item3</title>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="layout.css" />
+    <script src= "js/localcookiemanager.js" ></script>
+	<script src= "js/catalog.js" ></script>
+	<script>
+	if(getCookie("valid") !="true") location.href="login.html";
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+        <div id="logo_text">
+          <h1><a href="home.html">Meow <span class="logo_colour">Land</span></a></h1>
+          <h2>Cat. Supplie. Food. Medications</h2>
+        </div>
+        </div>
+		<img src="cat.jpeg" width="960px" height= "350px" alt="cat">
+		<div class = "horizontal">
+			<ul>
+				<li><script>
+				if(getCookie("valid") =="true")
+					document.writeln(`<a href="logoff.html"><span class="button">Logoff</span></a>`);
+				else
+					document.writeln(`<a href="login.html"><span class="button">Login</span></a>`);
+				</script></li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About Me</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	
+	<div style="float:left;margin-left:40px; margin-top:50px;width:75%">
+		<img src="item3.png" width="300px" height="300px" alt="item3"/>
+		<div style="float:right; margin-right:100px;margin-top:50px;">
+			<div style="font-size:25px">ZIWI Peak</div>
+			<div style="color:black;"><h2>Price:</h2></div>
+			<div style="color:#DC143C;">$62.77 for 3-oz, case of 24</div>
+		</div>
+		
+		<p style="float:left; margin-left:5px; width:300px"/>ZIWI Peak is a safe raw alternative that still provides the nutrition of a raw diet. ZIWI Peak Canned Wet Cat Food – All Natural, High Protein, Grain Free & Limited Ingredient, with Superfoods · Beef · Chicken · Rabbit & Lamb · Venison · Lamb. A meat-rich highly digestible diet with none of the unnecessary additives.</p>
+	</div>
+	
+	<aside>
+		<h1>Useful Links</h1>
+		<ul>
+			<li class="newgroup"><a href="https://en.wikipedia.org/wiki/Cat"/>Cat Wikipedia</a></li><br>
+			<li><a href="http://newyorkcathospital.com/">Cat Hospital</a></li><br>
+			<li><a href="https://www.petfinder.com/pet-adoption/cat-adoption/">Cat Adoption</a></li><br>
+			<li><a href="https://www.trustedhousesitters.com/how-it-works/find-a-sitter/?gclid=CjwKCAjw_L6LBhBbEiwA4c46uiAdYOmXMN0M7mhz7idEDARpv6L_FPRCBjpeRDlxUD6T66eT_H861BoCvrkQAvD_BwE">Cat Boarding</a></li><br>
+			<li><a href="https://portal.311.nyc.gov/article/?kanumber=KA-02300">Stray Animal Help</a></li><br>
+			<li><a href="https://www.smalldoorvet.com/?gclid=CjwKCAjw_L6LBhBbEiwA4c46uoOghw16udt43UtHtoo_C9JJJZNqhVtQLFpEpTGhs1a8UCG8Tiz8zBoC8VIQAvD_BwE">Pet Urgent Care</a></li><br>
+			<li><a href="https://www.amazon.com/Veterinary-Notes-Owners-Trevor-Turner/dp/0091751039">Veterinary Notes</a></li><br>
+			<li><a href="https://www.google.com/search?q=cat+grooming&rlz=1C1KDEC_enUS931US931&sxsrf=AOaemvKAbMR-RYSQZn6GIgiE88IVo9W1Pw%3A1634730933468&ei=tQNwYbr4G9GKytMPyrSvkA4&oq=cat+grooming&gs_lcp=Cgdnd3Mtd2l6EAEYBzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnSgQIQRgAUMAcWMsfYJlLaAFwAngAgAGfAYgB_wKSAQMwLjOYAQCgAQGwAQrAAQE&sclient=gws-wiz">Cat Grooming</a></li>
+		</ul>
+	</aside>
+	
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<footer>Meow Land &copy; 2021 All Rights Reserved</footer>
+</body>
+</html>

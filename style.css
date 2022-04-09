@@ -1,0 +1,114 @@
+html{
+   background-color: #7FFFD4;
+   height:100%;
+}
+
+body{
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   height:100%;
+   max-width: 950px;
+   min-width: 360px;
+   color: rgba(190, 144, 45, 1);
+   background-color: white;
+   min-height: 190vh;
+}
+
+
+
+body > header > img{
+   display: block;
+   width: 100%;
+}
+
+#logo
+{ margin-left: auto; 
+  margin-right: auto;
+  width: 860px;
+  position: relative;
+  height: 136px;
+  background: url(logo.jpg) no-repeat;}
+
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 27px;
+  left: 0;}
+
+#logo h1, #logo h2
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover 
+{ padding: 22px 0 0 0;
+  color: #00BFFF;
+  text-decoration: none;}
+
+#logo_text h1 a .logo_colour
+{ color: #E4EC04;}
+
+#logo_text a:hover .logo_colour
+{ color: #2F4F4F;}
+
+#logo_text h2
+{ font-size: 120%;
+  padding: 4px 0 0 0;
+  color: #B7B9A7;}
+
+
+.horizontal > ul li{
+	 display:block;
+     float: left;
+     background-color: rgba(33, 188, 202, 1);
+     width: 20%;
+}
+
+.center{
+text-align: center;
+}
+
+.horizontal a{
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.4em;
+   line-height: 1.6em;
+   text-align: center;
+}
+
+
+aside>ul>li>a:hover, aside>ul>li>a:active{
+   color: hsla(199, 62%, 46%, 1);
+   text-decoration: underline;
+
+}
+
+aside > ul >li.newgroup{
+   margin-top: 20px;
+}
+
+aside>ul>li>a:link, aside>ul>li>a:visited{
+   color: black;
+   text-decoration: none;
+}
+
+aside > h1{
+	text-align: center;
+}
+
+aside{
+   width: auto;
+   height: auton;
+   float: right;
+   display: inline;
+}
+
+footer {
+   color: rgb(186, 186, 156);
+   background-color: rgba(28, 94, 206, 1);
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}

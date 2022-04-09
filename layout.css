@@ -1,0 +1,56 @@
+body {
+	margin: 0 auto;
+}
+
+body > header{
+	width: 100%;
+}
+
+body > header img{
+	height: 18em;
+}
+
+body > div#Shop {
+	font-family: Garamond, Arial, Helvetica, sans-serif;
+	width: 70%;
+	float: left;
+	margin-left: 40px;
+}
+
+body > div#Shop img {
+	float: right;
+	width: 40%;
+	margin: 0px 0 10px 10px;
+}
+
+
+aside h1{
+	font-family: Swift,Arial, Helvetica, sans-serif;
+}
+body > aside {
+	width: 20%;
+	float: right;
+	margin-right: 3px;
+	background-color:white;
+}
+
+
+body > div#content {
+	font-family: Garamond, Arial, Helvetica, sans-serif;
+	width: 70%;
+	float: left;
+	margin-left: 40px;
+}
+
+body > div#content img {
+	float: left;
+	width: 20%;
+	margin: 0px 40px 40px 10px;
+}
+
+body > footer {
+	width: 100%;
+	clear: left;
+}
+
+

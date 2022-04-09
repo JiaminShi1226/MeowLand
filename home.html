@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Meow Land</title>
+    <meta name="description" content="Pet,Cat,Kitten" />
+    <meta name="keywords" content="Cat supplies, Cat medications, Cat Treats" />
+    <meta http-equiv="content-type" content="text/html; charset= UTF-8" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="layout.css" />
+    <script src= "js/localcookiemanager.js" ></script>
+	<script src= "js/catalog.js" ></script>
+	<script>
+	if(getCookie("valid") !="true") location.href="login.html";
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+        <div id="logo_text">
+          <h1><a href="home.html">Meow <span class="logo_colour">Land</span></a></h1>
+          <h2>Cat. Supplie. Food. Medications</h2>
+        </div>
+        </div>
+		<img src="cat.jpeg" width="960px" height= "350px" alt="cat">
+		<div class = "horizontal">
+			<ul>
+				<li><script>
+				if(getCookie("valid") =="true")
+					document.writeln(`<a href="logoff.html"><span class="button">Logoff</span></a>`);
+				else
+					document.writeln(`<a href="login.html"><span class="button">Login</span></a>`);
+				</script></li>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="about.html">About Me</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div id="Shop">
+		<h1>About the Store</h1>
+		<img src="cat1.jpg" width="180px" height="180px" alt="cat1"/>
+		<h3 id="Shop"><strong>Mewo Land</strong> 
+		is a website for buying cat supplies. 
+		Breeders are advised to read the product descriptions carefully before purchasing supplies suitable for selecting their own kittens. 
+		In addition, there is a 20% discount for all items purchased on Thanksgiving Day.</h3>
+		
+		<br>
+		<br>
+		<br>
+		
+		<h2>The following matters are suitable for first time cat owners to read.</h2>
+		
+		
+		<ol>
+			<li>Cat food is recommended to choose imported natural food, better such as NOW! Cats are not very fond of water animals, we need to find ways to let the cat drink more water, you can put more water bowls at home, usually fed when eating canned food can be mixed with some water.</li><br>
+			<li>General cats will soon learn to go to the toilet in the cat litter, it is recommended to use a closed cat litter, the smell will be smaller, you can try to let the cat use pine cat litter, the smell will be smaller, but also easy to clean.</li><br>
+			<li>The best tool for teasing cats is the cat teasing stick, there is no one.Cats like to look up and guard their territory. Pay attention to the safety of objects such as vases, porcelain jewelry, watches, cell phones, etc. It is best not to let the cat can touch.</li><br>
+			<li>For the safety of your sofa, prepare a cat scratching board early, corrugated paper or twine can be, but this does not guarantee the absolute safety of your sofa, regular weekly nail clipping for the cat's front paws, pay attention not to cut off too much, do not cut to the pink tissue, the tool is recommended to use a special cat nail clipper.</li><br>
+		</ol>
+	</div>
+	
+	
+	
+	<aside>
+		<h1>Useful Links</h1>
+		<ul>
+			<li class="newgroup"><a href="https://en.wikipedia.org/wiki/Cat"/>Cat Wikipedia</a></li><br>
+			<li><a href="http://newyorkcathospital.com/">Cat Hospital</a></li><br>
+			<li><a href="https://www.petfinder.com/pet-adoption/cat-adoption/">Cat Adoption</a></li><br>
+			<li><a href="https://www.trustedhousesitters.com/how-it-works/find-a-sitter/?gclid=CjwKCAjw_L6LBhBbEiwA4c46uiAdYOmXMN0M7mhz7idEDARpv6L_FPRCBjpeRDlxUD6T66eT_H861BoCvrkQAvD_BwE">Cat Boarding</a></li><br>
+			<li><a href="https://portal.311.nyc.gov/article/?kanumber=KA-02300">Stray Animal Help</a></li><br>
+			<li><a href="https://www.smalldoorvet.com/?gclid=CjwKCAjw_L6LBhBbEiwA4c46uoOghw16udt43UtHtoo_C9JJJZNqhVtQLFpEpTGhs1a8UCG8Tiz8zBoC8VIQAvD_BwE">Pet Urgent Care</a></li><br>
+			<li><a href="https://www.amazon.com/Veterinary-Notes-Owners-Trevor-Turner/dp/0091751039">Veterinary Notes</a></li><br>
+			<li><a href="https://www.google.com/search?q=cat+grooming&rlz=1C1KDEC_enUS931US931&sxsrf=AOaemvKAbMR-RYSQZn6GIgiE88IVo9W1Pw%3A1634730933468&ei=tQNwYbr4G9GKytMPyrSvkA4&oq=cat+grooming&gs_lcp=Cgdnd3Mtd2l6EAEYBzIECCMQJzIECCMQJzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnSgQIQRgAUMAcWMsfYJlLaAFwAngAgAGfAYgB_wKSAQMwLjOYAQCgAQGwAQrAAQE&sclient=gws-wiz">Cat Grooming</a></li>
+		</ul>
+	</aside>
+	
+	<footer>Welcome to our Store | Meow Land</footer>
+</body>
+</html>
